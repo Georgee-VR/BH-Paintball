@@ -13,12 +13,20 @@
 @import url(animatehome.css);
 @import url(vegas.css);
 @import url(jquery.fullPage.css);
+ @font-face {
+        font-family: 'airstrike';
+        src: url('./fonts/airstrike.woff'); /* IE9 Compat Modes */
+        src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+             url('./fonts/airstrike.woff') format('woff'), /* Modern Browsers */
+             
+      }
+      
 @font-face {
-    font-family: "airstrike";
-    src: url('/fonts/airstrike.woff');
-    /* IE9 Compat Modes */
-    src: url('/fonts/airstrike.woff') format('woff'), /* Modern Browsers */
-}
+    font-family: "gotham black";
+    src: url('./fonts/GothamBlack.otf'); /* IE9 Compat Modes */
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./fonts/GothamBlack.otf') format('otf'), /* Modern Browsers */
+
 
 html,
 body,
